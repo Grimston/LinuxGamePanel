@@ -1,6 +1,8 @@
 # LinuxGamePanel
 Python web interface for Linux Game Server Manager 
 
+![preview](http://cdn.aussiehostingservices.com/b07d1d05-c687-4115-9c2c-4abd22acf068.png)
+
 # Installation
 1. Download the latest source from GitHub
 2. Extract ZIP file into the root level of your game server (Where you downloaded and installed LGSM)
