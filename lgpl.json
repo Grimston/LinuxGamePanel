@@ -1,0 +1,11 @@
+{
+    "admin_password": "admin",
+    "admin_username": "admin",
+    "host": "0.0.0.0",
+    "port": 8000,
+    "secret_key": "a+u?xb/:T#e-4U(#t+~N|",
+    "servers": [
+        "lgsm-script-here"
+    ],
+    "use_pam": true
+}
