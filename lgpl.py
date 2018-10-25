@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""
-pip requirements
-flask ansi2html pam
-"""
+__author__ = "Nathan 'Grimston' Pipes"
+__copyright__ = "Copyright 2018, Nathan 'Grimston' Pipes"
+__credits__ = ["Nathan 'Grimston' Pipes"]
+__license__ = "GPL3"
 import sys
 from json import dumps, loads
 from os import path
@@ -124,7 +124,8 @@ def login():
             session['username'] = request.form['username']
             return redirect(url_for('server_list'))
     else:
-        if request.form['username'] == config['admin_username'] and request.form['password'] == config['admin_password']:
+        if request.form['username'] == config['admin_username'] and request.form['password'] == config[
+            'admin_password']:
             session['username'] = request.form['username']
             return redirect(url_for('server_list'))
 
