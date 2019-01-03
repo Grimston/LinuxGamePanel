@@ -9,7 +9,7 @@ Python web interface for Linux Game Server Manager
 3. Install Python 3.X (Check online for instructions for your distubution)
 4. Install requirements via `pip` (`pip3` on some systems)
 ```BASH
-pip install flask ansi2html pam
+pip install flask ansi2html python-pam
 ```
 
 # Configuration
